@@ -57,9 +57,9 @@ namespace ventaVideojuegos
         public static void AñadirConsolaDB(Consola con)
         {
 
-            conexion.Conectar();
-            string consulta = "Use tienda; insert into Consola (Nombre,Visible) values (@nombre,@visible)";
-            SqlCommand cmd = new SqlCommand(consulta, conexion.Conectar());
+            Conexion.Conectar();
+            string consulta = "Use bd_tiendaPdesarrollo; insert into Consola (Nombre,Visible) values (@nombre,@visible)";
+            SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@nombre", con.Nombre);
             cmd.Parameters.AddWithValue("@visible", con.Vista);
 
@@ -97,9 +97,9 @@ namespace ventaVideojuegos
         public static void EliminarConsolaDB(int Id)
         {
 
-            conexion.Conectar();
-            string consulta = "Use tienda; update Consola set Visible='0' where IdConsola = @id;";
-            SqlCommand cmd = new SqlCommand(consulta, conexion.Conectar());
+            Conexion.Conectar();
+            string consulta = "Use bd_tiendaPdesarrollo; update Consola set Visible='0' where IdConsola = @id;";
+            SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@id", Id);
 
             try
@@ -116,9 +116,9 @@ namespace ventaVideojuegos
         // trae la consola solicitada mediante un id desde la base de datos
         public static Consola GetOne(int Id)
         {
-            conexion.Conectar();
-            string query = "use tienda; select * from Consola where IdConsola = @id";
-            SqlCommand cmd = new SqlCommand(query, conexion.Conectar());
+            Conexion.Conectar();
+            string query = "use bd_tiendaPdesarrollo; select * from Consola where IdConsola = @id";
+            SqlCommand cmd = new SqlCommand(query, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@id", Id);
 
             try
@@ -156,9 +156,9 @@ namespace ventaVideojuegos
         // actualiza la consola en la DB mediante una consulta update
         public static void ActualizarConsolaDB(int idconsola, Consola con)
         {
-            conexion.Conectar();
-            string consulta = "Use tienda; update Consola set Nombre = @nombre, Visible=@visible where IdConsola = @id;";
-            SqlCommand cmd = new SqlCommand(consulta, conexion.Conectar());
+            Conexion.Conectar();
+            string consulta = "Use bd_tiendaPdesarrollo; update Consola set Nombre = @nombre, Visible=@visible where IdConsola = @id;";
+            SqlCommand cmd = new SqlCommand(consulta, Conexion.Conectar());
             cmd.Parameters.AddWithValue("@id", idconsola);
             cmd.Parameters.AddWithValue("@nombre", con.Nombre);
             cmd.Parameters.AddWithValue("@visible", con.Vista);

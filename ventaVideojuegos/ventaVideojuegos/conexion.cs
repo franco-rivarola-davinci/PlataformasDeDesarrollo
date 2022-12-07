@@ -8,12 +8,12 @@ using System.Data;
 
 namespace ventaVideojuegos
 {
-    class conexion
+    class Conexion
     {
 
         public static SqlConnection Conectar()
         {
-           SqlConnection cn = new SqlConnection("Data Source=DESKTOP-4QE2QT2;" + "Initial Catalog=TEST;" + "Integrated Security=SSPI;");
+           SqlConnection cn = new SqlConnection("Data Source=DESKTOP-Q0LUSNR;" + "Initial Catalog=bd_tiendaPdesarrollo;" + "Integrated Security=SSPI;");
 
             cn.Open();
 

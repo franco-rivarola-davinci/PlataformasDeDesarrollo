@@ -32,13 +32,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.boxClientes = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.boxEmpleados = new System.Windows.Forms.ComboBox();
-            this.errEmpleado = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.errPw = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblPw = new System.Windows.Forms.Label();
             this.txtPw = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnFinalCompra = new Guna.UI2.WinForms.Guna2Button();
+            this.txtVendedor = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // txtID
@@ -53,18 +52,18 @@
             this.txtID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtID.Location = new System.Drawing.Point(239, 23);
+            this.txtID.Location = new System.Drawing.Point(239, 28);
             this.txtID.Name = "txtID";
             this.txtID.PasswordChar = '\0';
             this.txtID.PlaceholderText = "";
             this.txtID.SelectedText = "";
-            this.txtID.Size = new System.Drawing.Size(119, 27);
+            this.txtID.Size = new System.Drawing.Size(119, 22);
             this.txtID.TabIndex = 13;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(83, 32);
+            this.label3.Location = new System.Drawing.Point(83, 37);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 12;
@@ -87,41 +86,21 @@
             this.label1.TabIndex = 38;
             this.label1.Text = "Seleccione el cliente";
             // 
-            // boxEmpleados
-            // 
-            this.boxEmpleados.FormattingEnabled = true;
-            this.boxEmpleados.Location = new System.Drawing.Point(239, 138);
-            this.boxEmpleados.Name = "boxEmpleados";
-            this.boxEmpleados.Size = new System.Drawing.Size(121, 21);
-            this.boxEmpleados.TabIndex = 42;
-            this.boxEmpleados.SelectedIndexChanged += new System.EventHandler(this.boxEmpleados_SelectedIndexChanged);
-            // 
-            // errEmpleado
-            // 
-            this.errEmpleado.BackColor = System.Drawing.Color.Transparent;
-            this.errEmpleado.Font = new System.Drawing.Font("Open Sans Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.errEmpleado.ForeColor = System.Drawing.Color.Red;
-            this.errEmpleado.Location = new System.Drawing.Point(86, 165);
-            this.errEmpleado.Name = "errEmpleado";
-            this.errEmpleado.Size = new System.Drawing.Size(157, 17);
-            this.errEmpleado.TabIndex = 41;
-            this.errEmpleado.Text = "Debe seleccionar el vendedor";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(83, 144);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 13);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 40;
-            this.label2.Text = "Seleccione el vendedor";
+            this.label2.Text = "Vendedor";
             // 
             // errPw
             // 
             this.errPw.BackColor = System.Drawing.Color.Transparent;
             this.errPw.Font = new System.Drawing.Font("Open Sans Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errPw.ForeColor = System.Drawing.Color.Red;
-            this.errPw.Location = new System.Drawing.Point(179, 229);
+            this.errPw.Location = new System.Drawing.Point(239, 229);
             this.errPw.Name = "errPw";
             this.errPw.Size = new System.Drawing.Size(119, 17);
             this.errPw.TabIndex = 46;
@@ -130,7 +109,7 @@
             // lblPw
             // 
             this.lblPw.AutoSize = true;
-            this.lblPw.Location = new System.Drawing.Point(134, 204);
+            this.lblPw.Location = new System.Drawing.Point(83, 202);
             this.lblPw.Name = "lblPw";
             this.lblPw.Size = new System.Drawing.Size(61, 13);
             this.lblPw.TabIndex = 45;
@@ -155,7 +134,6 @@
             this.txtPw.Size = new System.Drawing.Size(121, 21);
             this.txtPw.TabIndex = 44;
             this.txtPw.UseSystemPasswordChar = true;
-            
             // 
             // btnFinalCompra
             // 
@@ -173,17 +151,36 @@
             this.btnFinalCompra.Text = "Finalizar Compra";
             this.btnFinalCompra.Click += new System.EventHandler(this.btnFinalCompra_Click);
             // 
+            // txtVendedor
+            // 
+            this.txtVendedor.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtVendedor.DefaultText = "";
+            this.txtVendedor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtVendedor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtVendedor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtVendedor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtVendedor.Enabled = false;
+            this.txtVendedor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtVendedor.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtVendedor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtVendedor.Location = new System.Drawing.Point(239, 144);
+            this.txtVendedor.Name = "txtVendedor";
+            this.txtVendedor.PasswordChar = '\0';
+            this.txtVendedor.PlaceholderText = "";
+            this.txtVendedor.SelectedText = "";
+            this.txtVendedor.Size = new System.Drawing.Size(119, 22);
+            this.txtVendedor.TabIndex = 47;
+            // 
             // FormValidarVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(477, 343);
+            this.Controls.Add(this.txtVendedor);
             this.Controls.Add(this.errPw);
             this.Controls.Add(this.lblPw);
             this.Controls.Add(this.txtPw);
             this.Controls.Add(this.btnFinalCompra);
-            this.Controls.Add(this.boxEmpleados);
-            this.Controls.Add(this.errEmpleado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.boxClientes);
             this.Controls.Add(this.label1);
@@ -202,12 +199,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox boxClientes;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox boxEmpleados;
-        private Guna.UI2.WinForms.Guna2HtmlLabel errEmpleado;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2HtmlLabel errPw;
         private System.Windows.Forms.Label lblPw;
         private Guna.UI2.WinForms.Guna2TextBox txtPw;
         private Guna.UI2.WinForms.Guna2Button btnFinalCompra;
+        private Guna.UI2.WinForms.Guna2TextBox txtVendedor;
     }
 }

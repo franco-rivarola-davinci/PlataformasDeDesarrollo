@@ -90,7 +90,6 @@ C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideoj
 C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Login.resources
 C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Properties.Resources.resources
 C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Admin.resources
-C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Inicio.resources
 C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Stats.resources
 C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Ventas.resources
 C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.GenerateResource.cache
@@ -240,7 +239,6 @@ C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVid
 C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Login.resources
 C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Properties.Resources.resources
 C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Admin.resources
-C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Inicio.resources
 C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Stats.resources
 C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Ventas.resources
 C:\Users\franc\OneDrive\Escritorio\DP\TP MI GIT\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.GenerateResource.cache
@@ -631,3 +629,62 @@ C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT-RODRIGO\PlataformasDeDesarrolloV3Fi
 C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT-RODRIGO\PlataformasDeDesarrolloV3Final\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.CopyComplete
 C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT-RODRIGO\PlataformasDeDesarrolloV3Final\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.exe
 C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT-RODRIGO\PlataformasDeDesarrolloV3Final\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.pdb
+C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\bin\Debug\iTextSharp.dll
+C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormCliente.resources
+C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormValidarVenta.resources
+C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.SeleccionarProducto.resources
+C:\Users\tomi-\source\repos\PlataformasDeDesarrollo\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.VerDetalles.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\ventaVideojuegos.exe.config
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\ventaVideojuegos.exe
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\ventaVideojuegos.pdb
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Guna.UI2.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\iTextSharp.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Paginacion.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Syncfusion.Buttons.XForms.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Buffers.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Collections.Immutable.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Memory.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Uno.Diagnostics.Eventing.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Uno.Foundation.Logging.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\UXDivers.Gorilla.SDK.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Syncfusion.Buttons.XForms.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Buffers.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Collections.Immutable.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Memory.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Uno.Diagnostics.Eventing.pdb
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Uno.Foundation.Logging.pdb
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.AssemblyReference.cache
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.SuggestedBindingRedirects.cache
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormCategoria.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormCliente.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormConsola.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormProducto.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Form1.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormValidarVenta.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.FormVenta.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Login.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.Properties.Resources.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.SeleccionarProducto.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Admin.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Stats.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.UsersControls.UC_Ventas.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.VerDetalles.resources
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.GenerateResource.cache
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.csproj.CopyComplete
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.exe
+C:\Users\franc\OneDrive\Escritorio\DP\TP-GIT TOMAS\TP_PlataformasDeDesarrollo_Tomi\ventaVideojuegos\ventaVideojuegos\obj\Debug\ventaVideojuegos.pdb

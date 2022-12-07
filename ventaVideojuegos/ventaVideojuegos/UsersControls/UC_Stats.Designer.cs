@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.lblcantVentasMax = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblcantStockMax = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtMasVendido = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtMasStock = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtProdCatalogo = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -41,8 +43,6 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
-            this.lblcantStockMax = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.lblcantVentasMax = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.guna2TabControl1.SuspendLayout();
@@ -65,6 +65,28 @@
             this.tabPage2.Size = new System.Drawing.Size(696, 222);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Productos";
+            // 
+            // lblcantVentasMax
+            // 
+            this.lblcantVentasMax.BackColor = System.Drawing.Color.Transparent;
+            this.lblcantVentasMax.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcantVentasMax.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblcantVentasMax.Location = new System.Drawing.Point(616, 146);
+            this.lblcantVentasMax.Name = "lblcantVentasMax";
+            this.lblcantVentasMax.Size = new System.Drawing.Size(38, 24);
+            this.lblcantVentasMax.TabIndex = 19;
+            this.lblcantVentasMax.Text = "Cant";
+            // 
+            // lblcantStockMax
+            // 
+            this.lblcantStockMax.BackColor = System.Drawing.Color.Transparent;
+            this.lblcantStockMax.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcantStockMax.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblcantStockMax.Location = new System.Drawing.Point(616, 93);
+            this.lblcantStockMax.Name = "lblcantStockMax";
+            this.lblcantStockMax.Size = new System.Drawing.Size(38, 24);
+            this.lblcantStockMax.TabIndex = 18;
+            this.lblcantStockMax.Text = "Cant";
             // 
             // txtMasVendido
             // 
@@ -196,7 +218,7 @@
             this.guna2TabControl1.Controls.Add(this.tabPage1);
             this.guna2TabControl1.Controls.Add(this.tabPage2);
             this.guna2TabControl1.ItemSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl1.Location = new System.Drawing.Point(15, 93);
+            this.guna2TabControl1.Location = new System.Drawing.Point(10, 12);
             this.guna2TabControl1.Name = "guna2TabControl1";
             this.guna2TabControl1.SelectedIndex = 0;
             this.guna2TabControl1.Size = new System.Drawing.Size(884, 230);
@@ -219,35 +241,13 @@
             this.guna2TabControl1.TabIndex = 0;
             this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             // 
-            // lblcantStockMax
-            // 
-            this.lblcantStockMax.BackColor = System.Drawing.Color.Transparent;
-            this.lblcantStockMax.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcantStockMax.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblcantStockMax.Location = new System.Drawing.Point(616, 93);
-            this.lblcantStockMax.Name = "lblcantStockMax";
-            this.lblcantStockMax.Size = new System.Drawing.Size(38, 24);
-            this.lblcantStockMax.TabIndex = 18;
-            this.lblcantStockMax.Text = "Cant";
-            // 
-            // lblcantVentasMax
-            // 
-            this.lblcantVentasMax.BackColor = System.Drawing.Color.Transparent;
-            this.lblcantVentasMax.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcantVentasMax.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblcantVentasMax.Location = new System.Drawing.Point(616, 146);
-            this.lblcantVentasMax.Name = "lblcantVentasMax";
-            this.lblcantVentasMax.Size = new System.Drawing.Size(38, 24);
-            this.lblcantVentasMax.TabIndex = 19;
-            this.lblcantVentasMax.Text = "Cant";
-            // 
             // UC_Stats
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2TabControl1);
             this.Name = "UC_Stats";
-            this.Size = new System.Drawing.Size(911, 411);
+            this.Size = new System.Drawing.Size(911, 576);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage1.ResumeLayout(false);

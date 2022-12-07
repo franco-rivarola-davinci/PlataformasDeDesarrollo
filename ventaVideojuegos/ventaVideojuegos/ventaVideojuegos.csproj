@@ -103,7 +103,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="conexion.cs" />
+    <Compile Include="Conexion.cs" />
     <Compile Include="Controlers\ControladorClientes.cs" />
     <Compile Include="Controlers\controladorUsuarios.cs" />
     <Compile Include="Controlers\ControladorVentas.cs" />
@@ -188,12 +188,6 @@
     <Compile Include="UsersControls\UC_Admin.Designer.cs">
       <DependentUpon>UC_Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsersControls\UC_Inicio.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UsersControls\UC_Inicio.Designer.cs">
-      <DependentUpon>UC_Inicio.cs</DependentUpon>
-    </Compile>
     <Compile Include="UsersControls\UC_Stats.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -251,9 +245,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UsersControls\UC_Admin.resx">
       <DependentUpon>UC_Admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UsersControls\UC_Inicio.resx">
-      <DependentUpon>UC_Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsersControls\UC_Stats.resx">
       <DependentUpon>UC_Stats.cs</DependentUpon>

@@ -61,7 +61,6 @@ namespace ventaVideojuegos.UsersControls
             visualizarConDB();
             VisualizarClientes();
             VisualizarEmpleados();
-            VisualizarVentas();
 
 
         }
@@ -97,23 +96,6 @@ namespace ventaVideojuegos.UsersControls
                 dataGridViewCte.Rows[rowIndex].Cells[3].Value = cte.NUsuario.ToString();
                 dataGridViewCte.Rows[rowIndex].Cells[4].Value = cte.Email.ToString();
                 dataGridViewCte.Rows[rowIndex].Cells[5].Value = cte.Vista.ToString();
-
-            }
-        }
-        private void VisualizarVentas()
-        {
-            dataGridViewCVentas.Rows.Clear();
-            foreach (VentaUnificada vtaU in ControladorVentaUnificada.VentasUnificadas)
-            {
-
-                    int rowIndex = dataGridViewCVentas.Rows.Add();
-                dataGridViewCVentas.Rows[rowIndex].Cells[0].Value = vtaU.Id.ToString();
-                dataGridViewCVentas.Rows[rowIndex].Cells[1].Value = vtaU.nombreEmpleado.ToString();
-                dataGridViewCVentas.Rows[rowIndex].Cells[2].Value = vtaU.nombreCliente.ToString();
-                dataGridViewCVentas.Rows[rowIndex].Cells[3].Value = vtaU.valorTotal.ToString();
-                dataGridViewCVentas.Rows[rowIndex].Cells[4].Value = vtaU.DateTime.ToString();
-
-
 
             }
         }
@@ -214,10 +196,10 @@ namespace ventaVideojuegos.UsersControls
         //Aca se genera la consulta SQL que llama los registros
         public DataTable llenar_grid_consolas()
         {
-            conexion.Conectar();
+            ventaVideojuegos.Conexion.Conectar();
             DataTable dt = new DataTable();
-            string consulta = "Use tienda; select * from Consola;";
-            SqlCommand cmd = new SqlCommand(consulta, conexion.Conectar());
+            string consulta = "Use bd_tiendaPdesarrollo; select * from Consola;";
+            SqlCommand cmd = new SqlCommand(consulta, ventaVideojuegos.Conexion.Conectar());
 
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
 
@@ -436,7 +418,6 @@ namespace ventaVideojuegos.UsersControls
                 string idProdEliminar = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
                 ControladorProductos.EliminarProducto(int.Parse(idProdEliminar));
                 VisualizarCategorias();
-                //VisualizarConsolas();
                 paginar(Productos_Completo);
             }
             else
@@ -490,7 +471,6 @@ namespace ventaVideojuegos.UsersControls
 
             llenarBoxPaginacion();
             llenarBoxEstado();
-           // llenarBoxPaginacion_v();
         }
 
         private void llenarBoxEstado()
@@ -775,26 +755,6 @@ namespace ventaVideojuegos.UsersControls
         }
 
 
-        private void btnVerDetalles_Click(object sender, EventArgs e)
-        {
-            if (dataGridViewCVentas.SelectedRows.Count == 1)
-            {
-               int idVentaU = int.Parse(dataGridViewCVentas.SelectedRows[0].Cells[0].Value.ToString());
-
-                VerDetalles formVerDetalles = new VerDetalles(idVentaU);
-                DialogResult dialogResult = formVerDetalles.ShowDialog();
-
-
-
-            }
-            else
-            {
-                MessageBox.Show("Debes seleccionar una venta para ver sus detalles", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-            
-        }
-
         private void buttonNuevoConDB_Click(object sender, EventArgs e)
         {
 
@@ -859,5 +819,7 @@ namespace ventaVideojuegos.UsersControls
             }
 
         }
+
+
     }
 }

@@ -59,3 +59,11 @@
 40,root,franco,Destiny 2,2499,3,7497,2/12/2022 16:14:06
 41,root,consumidor final,MADDEN NFL 23,6400,30,192000,2/12/2022 16:22:23
 42,root,consumidor final,Red Dead Redemption II,2500,1,2500,3/12/2022 19:42:18
+43,root,tomas,FIFA 23,11999,1,11999,4/12/2022 23:52:20
+43,root,tomas,Mafia (Definitive Edition),259,1,259,4/12/2022 23:52:20
+44,root,tomas,Mafia (Definitive Edition),259,1,259,4/12/2022 23:56:51
+45,root,consumidor final,Red Dead Redemption II,2500,1,2500,6/12/2022 19:30:10
+46,root,consumidor final,NBA 2K23,9999,2,19998,6/12/2022 20:07:11
+47,root,consumidor final,Spider-Man Remastered,4999,1,4999,6/12/2022 20:59:51
+48,root1,consumidor final,Red Dead Redemption II,2500,1,2500,6/12/2022 21:00:12
+49,root,consumidor final,Spider-Man Remastered,4999,1,4999,6/12/2022 21:14:07

@@ -12,6 +12,5 @@ namespace ventaVideojuegos.Modelo
         public string Nombre { get; set; }
         public string Contrasena { get; set; }
         public bool EsAdmin { get; set; }
-        //public string imagen { get; set; }
     }
 }

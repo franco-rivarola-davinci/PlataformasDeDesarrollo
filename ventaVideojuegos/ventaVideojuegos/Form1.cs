@@ -17,34 +17,54 @@ namespace ventaVideojuegos
     {
 
         public string nombre = Login.usuario;
+        public bool admU = Login.esAdm;
         
         
 
         public Form1()
         {
             InitializeComponent();
-            UC_Admin uc = new UC_Admin();
-            addUserControl(uc);
+
             txtNombreUsuario.Text = nombre;
-           // setNombreUsuario();
-            
-            // txtNombreUsuario.Text = login.getUsuario();
 
-           
-
+            if(admU)
+            {
+                UC_Admin uc = new UC_Admin();
+                addUserControl(uc);
+            }
+            else
+            {
+                UC_Ventas uc = new UC_Ventas();
+                addUserControl(uc);
+            }
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            UC_Ventas uc = new UC_Ventas();
-            addUserControl(uc);
+            if (admU)
+            {
+                MessageBox.Show("No tiene permitido acceder a esta sección", "Error", MessageBoxButtons.OK);
+            }
+            else
+            {
+                UC_Ventas uc = new UC_Ventas();
+                addUserControl(uc);
+            }
 
         }
 
         private void btnAdmin_Click(object sender, EventArgs e)
         {
-            UC_Admin uc = new UC_Admin();
-            addUserControl(uc);
+            if (admU)
+            {
+                UC_Admin uc = new UC_Admin();
+                addUserControl(uc);
+            }
+            else
+            {
+                MessageBox.Show("No tiene permitido acceder a esta sección", "Error", MessageBoxButtons.OK);
+                
+            }
         }
 
         private void addUserControl(UserControl userControl)

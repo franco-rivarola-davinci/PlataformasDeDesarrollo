@@ -19,6 +19,8 @@ namespace ventaVideojuegos
         
 
         public static string usuario = "";
+        public static string pw = "";
+        public static bool esAdm=false;
         public Login()
         {
 
@@ -61,6 +63,8 @@ namespace ventaVideojuegos
                         if (datos[1].Equals(txtUsuarioLogin.Text) && datos[2].Equals(txtContrasenaLogin.Text))
                         {
                             usuario = txtUsuarioLogin.Text;
+                            pw = txtContrasenaLogin.Text;
+                            esAdm = bool.Parse(datos[3]);
                             valido = true;
 
 
@@ -92,10 +96,6 @@ namespace ventaVideojuegos
             
         }
 
-        public string getUsuario()
-        {
-            return usuario;
-        }
 
         private void txtUsuarioLogin_TextChanged(object sender, EventArgs e)
         {

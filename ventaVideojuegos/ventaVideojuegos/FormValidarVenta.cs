@@ -14,9 +14,12 @@ using ventaVideojuegos.UsersControls;
 
 namespace ventaVideojuegos
 {
+
+    
     public partial class FormValidarVenta : Form
     {
-
+        public string nombreV = Login.usuario;
+        public string pwV = Login.pw;
         public Venta ventaNueva;
         public string empleado;
         public string cliente;
@@ -25,7 +28,7 @@ namespace ventaVideojuegos
         public FormValidarVenta()
         {
             InitializeComponent();
-           
+
             controladorUsuarios.IniciarRepositorio();
             ControladorClientes.IniciarRepositorio();
             ControladorProductos.IniciarRepositorio();
@@ -33,19 +36,18 @@ namespace ventaVideojuegos
 
             limpiarErrores();
             llenarBox();
-            txtPw.Hide();
-            lblPw.Hide();
 
             txtID.Text = (ControladorVentas.lastId + 1).ToString();
             boxClientes.Text = "consumidor final";
+            txtVendedor.Text = nombreV.ToString();
         }
 
         private void limpiarErrores()
         {
-            errEmpleado.Text = "";
+     
             errPw.Text = "";
 
-            errEmpleado.Hide();
+   
             errPw.Hide();
 
         }
@@ -56,9 +58,6 @@ namespace ventaVideojuegos
             listCte = ControladorClientes.Clientes.Where(x => x.Id != 0).ToList();
             llenarBoxClientes(listCte);
 
-            List<Usuario> listUsu = new List<Usuario>();
-            listUsu = controladorUsuarios.Usuarios.Where(x => x.Id != 0).ToList();
-            llenarBoxEmpleados(listUsu);
         }
 
         private void llenarBoxClientes(List<Cliente> listaClientes)
@@ -72,28 +71,7 @@ namespace ventaVideojuegos
             }
         }
 
-        private void llenarBoxEmpleados(List<Usuario> listaUsuarios)
-        {
-            foreach (Usuario usu in listaUsuarios)
-            {
-                if (usu.EsAdmin == false)
-                {
-                    boxEmpleados.Items.Add(usu.Nombre);
-                }
-            }
-        }
 
-        private void liberarContraseña()
-        {
-            txtPw.Show();
-            lblPw.Show();
-        }
-
-
-        private void boxEmpleados_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            liberarContraseña();
-        }
 
         private void btnFinalCompra_Click(object sender, EventArgs e)
         {
@@ -102,10 +80,11 @@ namespace ventaVideojuegos
             if (ventaValidada)
             {
                 cliente = boxClientes.Text;
-                empleado = boxEmpleados.Text;
+                empleado = txtVendedor.Text;
                 stockk = int.Parse(txtID.Text);
 
                 // descontarStock(cantStock);
+                MessageBox.Show("Su venta se a realizado con éxito");
                 this.DialogResult = DialogResult.OK;
             }
         }
@@ -114,22 +93,8 @@ namespace ventaVideojuegos
         {
             errorMsg = true;
 
-            if (string.IsNullOrEmpty(boxEmpleados.Text))
-            {
-                string error = "Debe seleccionar el vendedor";
-                errEmpleado.Text = error;
-                errEmpleado.Show();
-                errorMsg = false;
-            }
-            else
-            {
-                errEmpleado.Hide();
 
-                foreach (Usuario usr in controladorUsuarios.Usuarios)
-                {
-
-
-                    if (usr.Nombre.Equals(boxEmpleados.SelectedItem.ToString()) && usr.Contrasena != txtPw.Text)
+                    if (txtPw.Text !=pwV )
                     {
                         string error = "Contraseña incorrecta";
                         errPw.Text = error;
@@ -142,10 +107,6 @@ namespace ventaVideojuegos
                         errPw.Hide();
                     }
 
-                }
-
-                
-            }
             return errorMsg;
         }
 

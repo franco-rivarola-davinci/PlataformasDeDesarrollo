@@ -1,6 +1,6 @@
-1,Mafia (Definitive Edition),259,80,1,1,Online,Un jugador,mafia.png,True
-2,Red Dead Redemption II,2500,65,2,1,Offline,Un jugador,reddeadredemption2.png,True
-3,Spider-Man Remastered,4999,33,2,2,Offline,Un jugador,spiderman.png,True
+1,Mafia (Definitive Edition),259,78,1,1,Online,Un jugador,mafia.png,False
+2,Red Dead Redemption II,2500,63,2,1,Offline,Un jugador,reddeadredemption2.png,True
+3,Spider-Man Remastered,4999,31,2,2,Offline,Un jugador,spiderman.png,True
 4,Far Cry 5,2999,82,2,5,Offline,Un jugador,farcry5.png,True
 5,Fallout 4,799,90,2,3,Online,Multijugador,fallout4.png,True
 6,Call of Duty Modern Warfare II,6990,7,2,4,Online,Multijugador,modernwarfare2.png,True
@@ -8,8 +8,8 @@
 8,Call of Duty Black Ops III,990,99,2,1,Online,Multijugador,blackops3.png,False
 9,Destiny 2,2499,92,2,5,Offline,Un jugador,destiny2.png,True
 10,Tom Clancy´s Rainbow Six Siege,999,98,2,3,Offline,Un jugador,rainbowsix.png,True
-11,FIFA 23,11999,80,3,2,Online,Multijugador,fifa23.png,True
-12,NBA 2K23,9999,100,3,4,Online,Multijugador,nba23.png,True
+11,FIFA 23,11999,79,3,2,Online,Multijugador,fifa23.png,True
+12,NBA 2K23,9999,98,3,4,Online,Multijugador,nba23.png,True
 13,Forza Horizon 4,2999,100,3,5,Offline,Un jugador,forzahorizon4.png,True
 14,MADDEN NFL 23,6400,70,3,1,Online,Multijugador,madden23.png,True
 15,F1 22,6000,100,3,2,Online,Un jugador,f122.png,True
@@ -38,4 +38,4 @@
 38,God of War Ragnarok,10000,100,4,2,Offline,Un jugador,godofwarragnarok.png,True
 39,Dishonored,230,100,4,5,Offline,Un jugador,dishonored2.png,True
 40,Sherlock Holmes chapter one,2000,100,4,4,Offline,Un jugador,sherlockcap1.png,True
-41,asd,3,23,3,2,asd,sd,batman.png,True
+41,asd,3,23,3,2,asd,sd,batman.png,False

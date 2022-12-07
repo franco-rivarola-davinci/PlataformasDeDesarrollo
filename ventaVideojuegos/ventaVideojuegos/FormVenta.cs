@@ -29,6 +29,14 @@ namespace ventaVideojuegos
 
         }
 
+        public FormVenta(int cantidad)
+        {
+
+            InitializeComponent();
+            limpiarErrores();
+            numCantidad.Text = cantidad.ToString();
+        }
+
 
 
         private void btnAgregarProducto_Click(object sender, EventArgs e)
